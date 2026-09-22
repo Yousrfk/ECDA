@@ -12,9 +12,10 @@ plt.plot(load_percent, traditional_llc_a, marker='o', label='Traditional LLC A')
 plt.plot(load_percent, traditional_llc_b, marker='s', label='Traditional LLC B')
 plt.plot(load_percent, proposed_llc, marker='^', label='Proposed LLC')
 
-plt.title('Efficiency comparision')
-plt.xlabel('load (%)')
+plt.title('Efficiency Comparison')
+plt.xlabel('Load (%)')
 plt.ylabel('Efficiency')
 plt.legend()
 plt.grid(True)
+
 plt.show()
